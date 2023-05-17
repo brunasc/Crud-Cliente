@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="d-flex mt-5">
+    <h3 class="title">CADASTRAR CLIENTE</h3>
+  </div>
+
+
+  <form [formGroup]="form" class="d-flex mt-5">
+    <div>
+      <div class="d-flex form-style mb-4">
+        <div class="mb-1 d-flex flex-column">
+          <label for="nome">Nome:</label>
+          <input type="text" class="form-control" id="nome" formControlName="nome">
+        </div>
+        <div class="mb-1 d-flex flex-column">
+          <label for="cpf">CPF:</label>
+          <input type="text" mask="000.000.000-00" class="form-control" id="cpf" formControlName="cpf">
+        </div>
+        <div class="mb-1 d-flex flex-column">
+          <label for="dataNascimento"> <small>Data de Nascimento:</small> </label>
+          <input type="date" id="dataNascimento" formControlName="dtNascimento" class="border form-control">
+        </div>
+      </div>
+      <div class="d-flex form-style mb-4">
+        <div class="mb-1 d-flex flex-column">
+          <label for="email">E-mail:</label>
+          <input type="email" formControlName="email" class="border form-control">
+        </div>
+        <div class="mb-1 d-flex flex-column">
+          <label for="renda">Renda Mensal: </label>
+          <input type="text" id="renda"  currencyMask formControlName="renda"  class="border form-control">
+        </div>
+        <div class="mb-1 d-flex flex-column">
+          <label for="dataCadastro"> <small>Data de Cadastro: </small> </label>
+          <input type="date" id="dataCadastro" formControlName="dtCadastro" class="border form-control">
+        </div>
+      </div>
+    </div>
+  </form>
+  <div class="content-buttons d-flex">
+    <button class="btn btn-clear">Limpar</button>
+    <button type="submit" class="btn btn-submit" (click)="addCliente()">Salvar</button>
+  </div>
+</div>
+
+

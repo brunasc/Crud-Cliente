@@ -1,0 +1,42 @@
+@import "../../../variables.scss";
+
+.header {
+  background-color: $color-brand-primary-darkest;
+  color: $color-brand-primary-darkest;
+  display: flex;
+  justify-content: center;
+  
+  .container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1em;
+  }
+
+  .options-menu {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 900;
+    text-align: start;
+  }
+
+  .name {
+    
+    background-color: #fff;
+    display: flex;
+    width: 186px;
+    height: 42px;
+    border-bottom-right-radius: 150px;
+    border-top-left-radius: 142px;
+    justify-content: center;
+    align-items: center;
+
+
+    span {
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+}

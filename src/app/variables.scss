@@ -1,0 +1,79 @@
+ // Primary Color
+  $color-brand-primary-darkest: #002C37;
+  $color-brand-primary-dark: #0A4A5B;
+  $color-brand-primary-medium: #00586F;
+  $color-brand-primary-light: #11728B;
+  $color-brand-primary-lightest: #7FABB7;
+
+  // Secondary color
+  $color-support-02-darkest: #7A6019;
+  $color-support-02-dark: #c49a28;
+  $color-support-02-medium: #f5c132;
+  $color-support-02-light: #f8d36f;
+  $color-support-02-lightest: #fbe6ad;
+
+  // Support 01
+  $color-brand-secondary-darkest: #075060;
+  $color-brand-secondary-dark: #0B8099;
+  $color-brand-secondary-medium: #0EA0C0;
+  $color-brand-secondary-light: #56BCD2;
+  $color-brand-secondary-lightest: #9ED9E5;
+
+  // Support 03
+  $color-support-03-darkest: #396C29;
+  $color-support-03-dark: #5CAC41;
+  $color-support-03-medium: #73D852;
+  $color-support-03-light: #9DE385;
+  $color-support-03-lightest: #C7EFB9;
+
+  // Neutral colors
+  $color-neutral-darkest: #1A1A1A;
+  $color-neutral-dark: #4F4F4F;
+  $color-neutral-medium: #9E9E9E;
+  $color-neutral-light: #D8D8D8;
+  $color-neutral-lightest: #EDEDED;
+  $color-neutral-white: #FFFFFF;
+
+
+  // Feedback colors
+  $color-feedback-success-darkest: #225230;
+  $color-feedback-success-dark: #337B47;
+  $color-feedback-success-medium: #44A45F;
+  $color-feedback-success-light: #8FC89F;
+  $color-feedback-success-lightest: #DAEDDF;
+
+  // Warning
+  $color-feedback-warning-darkest: #736A11;
+  $color-feedback-warning-dark: #AD9F1A;
+  $color-feedback-warning-medium: #E6D422;
+  $color-feedback-warning-light: #F0E57A;
+  $color-feedback-warning-lightest: #FAF6D3;
+
+  // Danger
+  $color-feedback-danger-darkest: #730C1F;
+  $color-feedback-danger-dark: #AD112F;
+  $color-feedback-danger-medium: #E6173E;
+  $color-feedback-danger-light:#F0748B;
+  $color-feedback-danger-lightest: #FAD1D8;
+
+
+  // Info
+  $color-feedback-info-darkest: #1E536B;
+  $color-feedback-info-dark: #2D7DA1;
+  $color-feedback-info-medium: #3CA6D6;
+  $color-feedback-info-light: #8ACAE6;
+  $color-feedback-info-lightest: #D8EDF7;
+
+
+  // Gradient
+  // Primary gradient
+  $color-linear-gradient-primary: Linear-gradient(to right, #002C37 100%, #00586F 100%);
+
+  // Secondary gradient
+  $color-linear-gradient-secondary: Linear-gradient(to right, #7A6019 100%, #F5C132 100%);
+
+  // Neutral gradient - 01
+  $color-linear-gradient-neutral-01: Linear-gradient(to right, #1A1A1A 100%, #9E9E9E 100%);
+
+  // Neutral gradient - 02
+  $color-linear-gradient-neutral-02: Linear-gradient(to right, #9E9E9E 100%, #EDEDED 100%);

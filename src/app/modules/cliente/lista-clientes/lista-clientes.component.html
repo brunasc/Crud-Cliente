@@ -1,0 +1,88 @@
+<div class="container">
+  <div class="d-flex mt-4">
+    <h3 class="title mb-5">CLIENTES</h3>
+  </div>
+
+  <form [formGroup]="form">
+    <div class="d-flex">
+      <div class="d-flex mb-4" style="column-gap: 2em;">
+        <div>
+          <label for="nome">Nome:</label>
+          <input class="form-control p-2" type="search" formControlName="nome" aria-label="Pesquisar nome">
+        </div>
+        <div>
+          <label for="cpf">CPF:</label>
+          <input class="form-control p-2" type="search" formControlName="cpf" aria-label="Pesquisar CPF" mask="000.000.000-00">
+        </div>
+        <div>
+          <label for="dataNascimento">Data de Nascimento:</label>
+          <input class="form-control p-2" type="date" formControlName="dataNascimento" aria-label="Pesquisar data de nascimento">
+        </div>
+        <div class="d-flex align-items-end">
+          <div class="buttons-search d-flex align-items-end">
+            <button class="btn btn-search" (click)="filtrarClientes()">Pesquisar</button>
+            <button class="btn btn-clear" (click)="limparPesquisa()">Limpar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <div>
+    <table class="table table-striped table-hover w-100">
+      <thead>
+        <tr>
+          <th scope="col" class="border-head">Nome  
+            <span (click)="order('nome', 'asc');">↟</span> 
+            <span (click)="order('nome', 'desc')">↡</span>
+          </th>
+          <th scope="col">CPF
+            <span (click)="order('cpf', 'asc');">↟</span> 
+            <span (click)="order('cpf', 'desc')">↡</span>
+          </th>
+          <th scope="col">E-mail
+            <span (click)="order('email', 'asc');">↟</span> 
+            <span (click)="order('email', 'desc')">↡</span>
+          </th>
+          <th scope="col">Renda
+              <span (click)="order('renda', 'asc');">↟</span> 
+            <span (click)="order('renda', 'desc')">↡</span>
+          </th>
+          <th scope="col">Data de Nascimento
+              <span (click)="order('dataNascimento', 'asc');">↟</span> 
+            <span (click)="order('dataNascimento', 'desc')">↡</span>
+          </th>
+          <th scope="col">Data de Cadastro
+              <span (click)="order('dataCadastro', 'asc');">↟</span> 
+            <span (click)="order('dataCadastro', 'desc')">↡</span>
+          </th>
+          <th scope="col" class="border-head-table">Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let cliente of clientesFiltrados">
+          <td class="border-table">{{cliente.nome}}</td>
+          <td>{{cliente.cpf}}</td>
+          <td>{{cliente.email}}</td>
+          <td>{{cliente.renda | currency : 'BRL'}}</td>
+          <td>{{cliente.dataNascimento | date: 'dd/MM/yyyy'}}</td>
+          <td>{{cliente.dataCadastro | date: 'dd/MM/yyyy'}}</td>
+          <td class="border-table-actions">
+            <button class="btn btn-details btn-link" (click)="detalhesCliente(cliente)">Detalhes</button>
+            <button class="btn btn-remove btn-link" (click)="removerCliente(cliente)">Remover</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <nav aria-label="Page navigation example"> 
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" (click)="irParaPagina(currentPage - 1)" [attr.disabled]="currentPage === 1">Previous</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" (click)="irParaPagina(currentPage + 1)" [attr.disabled]="!hasNextPage">Next</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>

@@ -1,0 +1,78 @@
+@import '../../../variables.scss';
+
+table {
+  font-weight: 700;
+  text-align: center;
+
+  thead {
+    background-color: $color-brand-primary-light;
+    color: $color-neutral-white;
+    text-align: center;
+  
+    .border-head {
+      border-top-left-radius: 40px;
+      border-bottom-left-radius: 40px;
+    }
+    .border-head-table {
+      border-bottom-right-radius: 40px;
+    }
+    
+  }
+
+  tbody {
+    .border-table {
+      border-top-left-radius: 40px;
+      border-bottom-left-radius: 40px;
+    }
+
+    .border-table-actions {
+      border-top-right-radius: 40px;
+      border-bottom-right-radius: 40px;
+    }
+  }
+}
+
+.table>:not(caption)>*>* {
+  border-bottom-width: 0px !important;
+}
+
+
+
+input, label {
+  color: $color-brand-primary-light;
+}
+
+
+label {
+  font-size: 12px;
+  font-weight: 900;
+}
+i {
+  font-weight: bold;
+  color: $color-brand-primary-light;
+}
+
+.btn-details {
+  color: $color-support-02-dark !important;
+}
+
+.btn-remove {
+  color: $color-feedback-danger-dark !important;
+}
+
+
+.buttons-search {
+  column-gap: 2em;
+
+  .btn-search {
+    background-color:  $color-brand-primary-light;
+    color: $color-neutral-white;
+    height: 42px;
+  }
+  
+  .btn-clear {
+     background-color: $color-neutral-medium !important;
+     height: 42px;  
+  }
+}
+

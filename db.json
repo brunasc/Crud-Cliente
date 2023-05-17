@@ -1,0 +1,157 @@
+{
+  "clientes": [
+    {
+      "nome": "maria isabel",
+      "cpf": "12320023054",
+      "dataNascimento": "1990-05-23",
+      "email": "teste@email.com",
+      "dataCadastro": "2023-05-13",
+      "renda": 1500,
+      "id": 2
+    },
+    {
+      "nome": "fulano de tal",
+      "cpf": "30237959089",
+      "dataNascimento": "2000-09-01",
+      "email": "fulano@email.com",
+      "dataCadastro": "2023-05-14",
+      "renda": 3000,
+      "id": 3
+    },
+    {
+      "nome": "José dos Santos",
+      "cpf": "16325721098",
+      "dataNascimento": "1980-04-13",
+      "email": "josesantos@email.com",
+      "dataCadastro": "2023-05-16",
+      "renda": 2000,
+      "id": 4
+    },
+    {
+      "nome": "Tereza Martins",
+      "cpf": "71391579011",
+      "dataNascimento": "1970-09-26",
+      "email": "tereza_martins01@email.com",
+      "dataCadastro": "2023-05-16",
+      "renda": 3500,
+      "id": 5
+    },
+    {
+      "nome": "Felipe Pereira da Silva",
+      "cpf": "85180692032",
+      "dataNascimento": "1998-12-01",
+      "email": "felipe.pereirads@email.com",
+      "dataCadastro": "2023-05-16",
+      "renda": 6000,
+      "id": 6
+    },
+    {
+      "nome": "Alex Tadeu Lima",
+      "cpf": "84239119006",
+      "dataNascimento": "2002-01-30",
+      "email": "alexlima2005@email.com",
+      "dataCadastro": "2023-05-16",
+      "renda": "2500.98",
+      "id": 7
+    },
+    {
+      "nome": "Leila Albuquerque Martins",
+      "cpf": "99743876049",
+      "dataNascimento": "1965-07-22",
+      "email": "leila.albuquerquem30@email.com",
+      "dataCadastro": "2023-05-15",
+      "renda": 8600,
+      "id": 8
+    },
+    {
+      "nome": "Miguel Souza Santana",
+      "cpf": "24110596041",
+      "dataNascimento": "1964-03-05",
+      "email": "miguel.ss2000@email.com",
+      "dataCadastro": "2023-05-16",
+      "renda": 10000,
+      "id": 9
+    },
+    {
+      "nome": "Fernando Damasceno Duarte",
+      "cpf": "24886703089",
+      "dataNascimento": "1987-08-27",
+      "email": "fernando.dduarte10@email.com",
+      "dataCadastro": "2023-05-16",
+      "renda": 5100,
+      "id": 10
+    },
+    {
+      "nome": "Régis Junior Alves",
+      "cpf": "89597937018",
+      "dataNascimento": "1995-02-15",
+      "email": "regis_junioralves@email.com",
+      "dataCadastro": "2023-05-16",
+      "renda": 1900,
+      "id": 11
+    },
+    {
+      "nome": "Roberto Felipe Castro",
+      "cpf": "23335991036",
+      "dataNascimento": "1988-06-29",
+      "email": "robertof.castro05@email.com",
+      "dataCadastro": "2023-05-16",
+      "renda": 4300,
+      "id": 12
+    },
+    {
+      "nome": "Nicolas Souza Santana ",
+      "cpf": "65053235031",
+      "dataNascimento": "2003-03-08",
+      "email": "nicolass_santana@email.com",
+      "dataCadastro": "2023-05-16",
+      "renda": 1000,
+      "id": 13
+    },
+    {
+      "nome": "teste de souza",
+      "cpf": "99968664081",
+      "dataNascimento": "1998-07-05",
+      "email": "teste.souza@email.com",
+      "dataCadastro": "2023-05-16",
+      "renda": 1000,
+      "id": 14
+    },
+    {
+      "nome": "Bruna Souza Chagas",
+      "cpf": "12320023054",
+      "dataNascimento": "1998-10-15",
+      "email": "bruna.chagass@hotmail.com",
+      "dataCadastro": "2023-05-16",
+      "renda": 1500,
+      "id": 15
+    },
+    {
+      "nome": "maria isabel",
+      "cpf": "12320023054",
+      "dataNascimento": "2000-02-20",
+      "email": "bruninha.chagas96@gmail.com",
+      "dataCadastro": "2023-05-16",
+      "renda": 3000,
+      "id": 19
+    },
+    {
+      "nome": "Bruna Souza Chagas",
+      "cpf": "12320023054",
+      "dataNascimento": "1996-10-20",
+      "email": "bruna.chagass@hotmail.com",
+      "dataCadastro": "2023-05-16",
+      "renda": 1500,
+      "id": 20
+    },
+    {
+      "nome": "Fagner Limeira",
+      "cpf": "26729637030",
+      "dataNascimento": "1989-06-21",
+      "email": "fagner.fl10@email.com",
+      "dataCadastro": "2023-05-16",
+      "renda": 1500,
+      "id": 22
+    }
+  ]
+}

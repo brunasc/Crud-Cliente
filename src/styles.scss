@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "./app/variables.scss";
+
+
+@font-face {
+  font-family: montserrat;
+  src: url("assets/fonts/Montserrat/Montserrat-Regular.ttf") format("opentype"),
+  url("./assets/fonts/Montserrat/Montserrat-Bold.ttf") format("opentype"),
+  url("./assets/fonts/Montserrat/Montserrat-ExtraBold.ttf") format("opentype");
+}
+
+* {
+  font-family: "montserrat", "arial", sans-serif !important;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 34px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.title {
+  color: $color-brand-primary-darkest;
+  font-weight: bold !important;
+}
+
+
+
+.btn {
+  width: 131px;
+  border-radius: 20px !important;
+  color: $color-neutral-white !important;  
+}
+
+

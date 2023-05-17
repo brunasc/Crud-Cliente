@@ -1,0 +1,40 @@
+@import "../../../variables.scss";
+
+
+
+.form-style {
+  column-gap: 5em;
+}
+
+label {
+  color: $color-brand-primary-darkest;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+input {
+  width: 314px;
+  height: 48px;
+  border-radius:8px;
+  color: $color-brand-primary-darkest;
+}
+
+.border {
+  border: 1px solid #ced4da;
+  
+}
+
+.content-buttons {
+  column-gap: 1em;
+  .btn-submit {
+    background-color: $color-brand-primary-darkest !important;
+    &:hover {
+      background-color: $color-brand-primary-light !important;
+      transition: 1s;
+    }
+  }
+  
+  .btn-clear {
+    background-color: $color-neutral-medium;
+  }
+}

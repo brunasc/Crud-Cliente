@@ -1,0 +1,8 @@
+<div class="container-alert" [@alert-visibility]="alertState">
+
+  <div *ngIf="alertType == 'success'" class="content-alert alert alert-success">{{message}}</div>
+
+  <div *ngIf="alertType == 'error'" class="content-alert alert alert-danger"> {{message}}</div>
+
+  <div *ngIf="alertType == 'warning'" class="content-alert alert alert-warning"> {{message}} </div>
+</div>
