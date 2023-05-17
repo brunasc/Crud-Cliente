@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
 ## Backend server 
-Run `json-server -w db.json` for a dev server.
+Run `json-server -w db.json` for a backend server.
 
 ## Development server
 
